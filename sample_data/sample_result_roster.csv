@@ -1,0 +1,21 @@
+roll_number,student_name,branch,semester,course_code,course_name,credits,internal_marks,external_marks,total_marks,grade,grade_point,status
+CS2021001,Aarav Sharma,CSE,7,CS701,Cloud Computing,4,22,68,90,O,10,PASS
+CS2021001,Aarav Sharma,CSE,7,CS702,Machine Learning,4,20,62,82,A+,9,PASS
+CS2021001,Aarav Sharma,CSE,7,CS703,Cyber Security,3,19,55,74,A,8,PASS
+CS2021001,Aarav Sharma,CSE,7,CS704,Software Project Management,3,23,60,83,A+,9,PASS
+CS2021001,Aarav Sharma,CSE,7,CS705,Machine Learning Lab,2,24,65,89,A+,9,PASS
+CS2021002,Bhavna Patel,CSE,7,CS701,Cloud Computing,4,18,52,70,A,8,PASS
+CS2021002,Bhavna Patel,CSE,7,CS702,Machine Learning,4,15,41,56,B+,7,PASS
+CS2021002,Bhavna Patel,CSE,7,CS703,Cyber Security,3,14,38,52,B,6,PASS
+CS2021002,Bhavna Patel,CSE,7,CS704,Software Project Management,3,17,50,67,B+,7,PASS
+CS2021002,Bhavna Patel,CSE,7,CS705,Machine Learning Lab,2,20,55,75,A,8,PASS
+CS2021003,Chirag Verma,CSE,7,CS701,Cloud Computing,4,12,24,36,F,0,FAIL
+CS2021003,Chirag Verma,CSE,7,CS702,Machine Learning,4,10,18,28,F,0,FAIL
+CS2021003,Chirag Verma,CSE,7,CS703,Cyber Security,3,14,40,54,B,6,PASS
+CS2021003,Chirag Verma,CSE,7,CS704,Software Project Management,3,15,42,57,B+,7,PASS
+CS2021003,Chirag Verma,CSE,7,CS705,Machine Learning Lab,2,18,50,68,B+,7,PASS
+CS2021004,Divya Nair,CSE,7,CS701,Cloud Computing,4,24,70,94,O,10,PASS
+CS2021004,Divya Nair,CSE,7,CS702,Machine Learning,4,23,67,90,O,10,PASS
+CS2021004,Divya Nair,CSE,7,CS703,Cyber Security,3,21,65,86,A+,9,PASS
+CS2021004,Divya Nair,CSE,7,CS704,Software Project Management,3,24,69,93,O,10,PASS
+CS2021004,Divya Nair,CSE,7,CS705,Machine Learning Lab,2,25,72,97,O,10,PASS

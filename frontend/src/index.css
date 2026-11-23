@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --label: #000000;
+  --label-2: rgba(60, 60, 67, 0.60);
+  --label-3: rgba(60, 60, 67, 0.30);
+  --separator: rgba(60, 60, 67, 0.16);
+
+  --accent: #007AFF;
+  --accent-press: #0062CC;
+
+  --success: #248A3D;
+  --warning: #B25000;
+  --danger: #D70015;
+
+  --glass-bg: rgba(255, 255, 255, 0.58);
+  --glass-bg-strong: rgba(255, 255, 255, 0.78);
+  --glass-border: rgba(255, 255, 255, 0.65);
+
+  --canvas-1: #E9EDF5;
+  --canvas-2: #EEF2F8;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Inter", "Segoe UI", Roboto, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--label);
+  background:
+    radial-gradient(46vw 42vh at 78% 16%, rgba(150, 190, 255, 0.30), transparent 72%),
+    radial-gradient(38vw 38vh at 32% 78%, rgba(168, 200, 255, 0.26), transparent 72%),
+    radial-gradient(60vw 50vh at 12% 8%, rgba(120, 158, 255, 0.24), transparent 70%),
+    linear-gradient(160deg, var(--canvas-1), var(--canvas-2));
+  background-attachment: fixed;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Apple Liquid Glass Utility */
+.glass {
+  background: var(--glass-bg);
+  backdrop-filter: blur(28px) saturate(190%);
+  -webkit-backdrop-filter: blur(28px) saturate(190%);
+  border: 1px solid var(--glass-border);
+  border-radius: 16px;
+  box-shadow:
+    0 0 0 0.5px rgba(255, 255, 255, 0.45),
+    inset 0 1px 0 rgba(255, 255, 255, 0.8),
+    inset 0 -1px 0 rgba(255, 255, 255, 0.2),
+    0 1px 1px rgba(0, 0, 0, 0.03),
+    0 6px 14px rgba(0, 0, 0, 0.05),
+    0 16px 32px rgba(0, 0, 0, 0.06);
+}
+
+.glass-elevated {
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(40px) saturate(190%);
+  -webkit-backdrop-filter: blur(40px) saturate(190%);
+  border: 1px solid var(--glass-border);
+  box-shadow:
+    0 0 0 0.5px rgba(255, 255, 255, 0.55),
+    inset 0 1px 0 0 rgba(255, 255, 255, 0.9),
+    inset 0 -1px 0 0 rgba(255, 255, 255, 0.4),
+    0 1px 1px rgba(0, 0, 0, 0.04),
+    0 8px 16px rgba(0, 0, 0, 0.07),
+    0 24px 56px rgba(0, 0, 0, 0.11);
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
